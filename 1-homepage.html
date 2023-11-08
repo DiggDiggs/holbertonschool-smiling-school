@@ -1,144 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
-<head>
+  <head>  
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmileSchool</title>
+    <link rel="icon" type="image/favicon" href="images/favicon.ico">
+    <title>Holberton - Smiling School</title>
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+    <!-- JQuery and Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
+
+    <!-- Bootstrap styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/favicon.ico" href="/images/favicon.png">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+  </head>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+  <body class="text-white">
+    <!-- Header -->
+    <header class="homepage container-fluid">
+      <div class="container-lg">
 
-<body>
-    <!-- header-->
-
-    <header class="header hero-img">
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <img src="/images/favicon.png" alt="logo">
-                    <img src="/images/logo.png" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                  <ul class="navbar-nav m-5">
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#">COURSES</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#">PRICING</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#">LOGIN</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        </div>
-        <!--hero-->
-        <div class="p-5 m-5">
-            <h1 class="font-weight-bold text-center display-1 text-white">Get schooled</h1>
-            <ul class="list-inline text-center font-weight-normal text-white">
-                <li class="list-inline-item m-5">SMILES</li>
-                <li class="list-inline-item m-5">GRIN</li>
-                <li class="list-inline-item m-5">LAUGH</li>
-              </ul>
-              <button class="button">REGISTER FOR FREE</button>
-        </div>
-        <div class="pros">
-            <h2 class="text-center"><span>Learn</span> from thr pros</h2>
-            <div class="container">
-                <div class="row p-5 text-center">
-                  <div class="col-sm">
-                    <img src="/images/profile_1.jpg" alt="" class="rounded-circle" width="150" height="150">
-                    <p class="text-white font-weight-bold">Phillip Massey</p>
-                    <p class="text-white font-weight-light">« Smile of the year » 2018 - 2019</p>
-                  </div>
-                  <div class="col-sm">
-                    <img src="/images/profile_2.jpg" alt="" class="rounded-circle"  width="150" height="150">
-                    <p class="text-white font-weight-bold">Nannie Lawrence</p>
-                    <p class="text-white font-weight-light">Best « little smile » 2017</p>
-                  </div>
-                  <div class="col-sm">
-                    <img src="/images/profile_3.jpg" alt="" class="rounded-circle"  width="150" height="150">
-                    <p class="text-white font-weight-bold">Bruce Walters</p>
-                    <p class="text-white font-weight-light">Best « Friend Smile » live performance 2019</p>
-                  </div>
-                  <div class="col-sm">
-                    <img src="/images/profile_4.jpg" alt="" class="rounded-circle"  width="150" height="150">
-                    <p class="text-white font-weight-bold">Henry Hughes</p>
-                    <p class="text-white font-weight-light">« 24h smiles » winner 2016 - 2019</p>
-                  </div>
-                </div>
+        <!-- Nav Bar -->
+        <nav class="d-flex flex-column flex-sm-row pt-4">
+          <!-- Logo -->
+          <div class="d-flex flex-column flex-sm-row col-sm-6 align-items-center">
+            <img class="m-2" src="images/smile_off.png" height="30px" width="40px">
+            <img class="m-2" src="images/logo.png" height="30px" width="111px">
+          </div>
+          <!-- Burger -->
+          <button class="navbar-toggler float-left position-absolute d-sm-none" type="button" data-toggle="collapse" data-target="#navbarLinks">
+            <span class="holberton_school-icon-menu text-white"></span>
+          </button>
+          <!-- Navigation links -->
+          <div class="collapse navbar-collapse d-sm-flex col-sm-6" id="navbarLinks">
+            <ul class="navbar-nav text-uppercase ml-auto flex-sm-row align-items-center font-weight-bold">
+              <li class="navbar-item">
+                <a class="nav-link text-white mx-5 mx-lg-3 mx-sm-0" href="courses.html">COURSES</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="pricing.html">PRICING</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link text-white mx-5 mx-lg-4 mx-sm-4" href="#">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Hero Section -->
+        <div class="position-relative pt-5 mt-5">
+          <div class="row">
+            <div class="col text-center pt-5 mt-5">
+              <h1 class="font-weight-bold display-2">Get schooled</h1>
+              <div class="row justify-content-center mt-3">
+                <p class="text-uppercase font-weight-bold mr-6 ml-5 mr-lg-3 ml-lg-3">Smiles</p>
+                <p class="text-uppercase font-weight-bold mr-6 ml-5 mr-lg-3 ml-lg-3">Grin</p>
+                <p class="text-uppercase font-weight-bold mr-6 ml-5 mr-lg-3 ml-lg-3">Laugh</p>
               </div>
+              <button class="btn btn-secondary rounded-pill text-uppercase font-weight btn-shadow px-4 py-2 m-3 mt-4" href="#">Register for free</button>
+              <h1 class="font-weight-light mt-5 pt-5"><span class="font-weight-bold purple">Learn</span> from the pros</h1>
+            </div>
+          </div>
         </div>
-    </header>
-    <!--Carousel of quotes-->
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="media">
-                <div class="media-left">
-                  <img src="/images/profile_5.jpg" width="150" height="150" class="rounded-circle d-block w-100">
-                </div>
-                <div class="media-body">
-                  <p class="media-heading">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
-                  <p>Person ali</p>
-                  <p>weather presenter</p>
-                </div>
+        <!-- Awards Section-->
+        <div class="row mt-5 py-5">
+          <div class="col-xl-3 col-6 col-sm-3">
+            <img class="card-img-top img-fluid rounded-circle px-4" src="images/profile_1.jpg">
+              <div class="text-center">
+                <h1 class="font-weight-bold pt-4 lead">Phillip Massey</h1>
+                <p class="card-text font-italic">&#171; Smile of the year &#187;<br>2018-2019</p>
               </div>
           </div>
-          <div class="carousel-item">
-            <div class="media">
-                <div class="media-left">
-                  <img src="/images/profile_5.jpg" width="150" height="150" class="rounded-circle">
-                </div>
-                <div class="media-body">
-                  <p class="media-heading">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
-                  <p>Person kamel</p>
-                  <p>weather presenter</p>
-                </div>
+          <div class="col-xl-3 col-6 col-sm-3">
+            <img class="card-img-top img-fluid rounded-circle px-4" src="images/profile_2.jpg">
+              <div class="text-center">
+                <h1 class="font-weight-bold pt-4 lead">Nannie Lawrence</h1>
+                <p class="card-text font-italic">Best &#171; little smile &#187;<br>2017</p>
               </div>
           </div>
-          <div class="carousel-item">
-            <div class="media">
-                <div class="media-left">
-                  <img src="/images/profile_5.jpg" width="150" height="150" class="rounded-circle">
-                </div>
-                <div class="media-body">
-                  <p class="media-heading">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
-                  <p>Person fathi</p>
-                  <p>weather presenter</p>
-                </div>
+          <div class="col-xl-3 col-6 col-sm-3">
+            <img class="card-img-top img-fluid rounded-circle px-4" src="images/profile_3.jpg">
+              <div class="text-center">
+                <h1 class="font-weight-bold pt-4 lead">Bruce Walters</h1>
+                <p class="card-text font-italic"> Best &#171; Friend Smile &#187;<br> live performance 2019</p>
+              </div>
+          </div>
+          <div class="col-xl-3 col-6 col-sm-3">
+            <img class="card-img-top img-fluid rounded-circle px-4" src="images/profile_4.jpg">
+              <div class="text-center">
+                <h1 class="font-weight-bold pt-4 lead">Henry Hughes</h1>
+                <p class="card-text font-italic">&#171; 24hr smiles &#187; winner<br>2016-2019</p>
               </div>
           </div>
         </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span><img src="/images/arrow_white_left.png" alt="arrow left" width="50" height="80"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span><img src="/images/arrow_white_right.png" alt="arrow right" width="50" height="80"></span>
-        </a>
+      </div> 
+  </header>
+    <!-- Carousel of Testimonials-->
+    <section class="container-fluid purple-bg py-5">
+      <div class="container-lg quotes">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!--- Testimonial 1 --->
+            <div class="carousel-item active">
+              <div class="d-flex flex-column align-items-center flex-sm-row col-sm-10 carousel-helper">
+                <img class="rounded-circle carousel-avatar" src="images/profile_5.jpg" width="160px" />
+                <div class="px-sm-5">
+                  <p class="px-2 mt-4 mt-md-0">&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn something. And it's so fun!</p>
+                  <p class="font-weight-bold pl-2 pt-2 mb-2 align-self-start">Person Name</p>
+                  <cite class="pl-2 align-self-start">weather presenter</cite>
+                </div>
+              </div>
+            </div>
+            <!--- Testimonial 2 --->
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center flex-sm-row col-sm-10 carousel-helper">
+                <img class="rounded-circle carousel-avatar" src="images/profile_5.jpg" width="160px" />
+                <div class="px-sm-5">
+                  <p class="px-2 mt-4 mt-md-0">&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn something. And it's so fun!</p>
+                  <p class="font-weight-bold pl-2 pt-2 mb-2 align-self-start">Person Name</p>
+                  <cite class="pl-2 align-self-start">weather presenter</cite>
+                </div>
+              </div>
+            </div>             
+            <!--- Testimonial 3 --->
+            <div class="carousel-item">
+              <div class="d-flex flex-column align-items-center flex-sm-row col-sm-10 carousel-helper">
+                <img class="rounded-circle carousel-avatar" src="images/profile_5.jpg" width="160px" />
+                <div class="px-sm-5">
+                  <p class="px-2 mt-4 mt-md-0">&#171; Those tutorials are concise and go straight to the point. I can't think of a better place to learn something. And it's so fun!</p>
+                  <p class="font-weight-bold pl-2 pt-2 mb-2 align-self-start">Person Name</p>
+                  <cite class="pl-2 align-self-start">weather presenter</cite>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <a class="carousel-control-prev mb-5 mb-sm-0" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="icon leftArrow mb-5 mb-sm-0" aria-hidden="true"></span>
+            <span class="sr-only">&#xe901; Previous</span>
+          </a>
+          <a class="carousel-control-next mb-5 mb-sm-0" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="icon rightArrow mb-5 mb-sm-0" aria-hidden="true"></span>
+            <span class="sr-only">&#xe900; Next</span>
+          </a>
+        </div>    
       </div>
+    </section>
 </body>
-
 </html>
